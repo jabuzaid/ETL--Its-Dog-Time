@@ -1,0 +1,17 @@
+It’s dog time.
+
+Data sets:
+
+NYC Dog Names: https://www.kaggle.com/new-york-city/nyc-dog-names
+NYC Dog Licenses: https://www.kaggle.com/smithaachar/nyc-dog-licensing-clean
+Website to scrape: https://dogtime.com/dog-breeds/profiles
+
+Questions:
+For this project, we will be merging these two data sets to answer these questions-
+What are the most popular names?
+What are the most popular breeds in NYC?
+What are the most popular names for each breed?
+What are the most dog populated NYC boroughs? 
+
+Data Cleanup & Analysis:
+Some initial cleanup steps will have to take place prior to the merging of both datasets, i.e. removing NAs, etc. The two data sets will be merged on the dog name column and then several counts will be calculated to answer the questions stated above. Next, we will scrape the website above to match images to the dog breeds in the final data set. Our final production database of choice will be mySQL. 
